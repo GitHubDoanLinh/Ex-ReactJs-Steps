@@ -1,0 +1,12 @@
+1 : State là dữ liệu mà 1 components có thế lưu trữ theo thời gian
+2 : Ta sử dụng state để lấy thông tin mà 1 components cần ghi nhớ trong suốt vòng đời của nó 
+3 : Có thế coi State là bộ nhớ của 1 components
+4 : State có thể là số lượng thông báo, nội dụng văn bản của 1 trường input, tab đang hoạt động trên thanh tabs, nội dung giỏ hàng
+5 : Điểm chung của tất cả các state này là trong ứng dụng, người dùng có thể dễ dàng thay đổi các giá trị này (vd: khi đọc thông báo,
+    số lượng tb sẽ - 1, khi user nhấp vào tab khác, tab đó sẽ hoạt động )
+6 : State variable / piece of State chỉ là 1 biến duy nhất trong component mà chúng ta có thể xác định trong mã của mình 
+7 : Bản thân thuật ngữ State thiên về toàn bộ trạng thái của component đó, giống như toàn bộ điều kiện tại 1 thời điểm nhất định
+8 : Việc cập nhật State sẽ kích hoạt lại React để update lại components
+9 : Tóm lại State cho phép ta làm 2 việc quan trọng 
+    9.1 đầu tiên State cho phép ta cập nhật components view bằng cách render lại component đó 
+    9.2 State cho phép chúng ta duy trì các biến cục bộ giữa các lần render
