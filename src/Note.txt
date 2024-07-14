@@ -10,7 +10,8 @@
 9 : Tóm lại State cho phép ta làm 2 việc quan trọng 
     9.1 đầu tiên State cho phép ta cập nhật components view bằng cách render lại component đó 
     9.2 State cho phép chúng ta duy trì các biến cục bộ giữa các lần render
-
-
+10 :Bất cứ khi nào 1 phần state được truyền dưới dạng chỗ dựa. khi state đó cập nhật, cả 2 component đều được render lại (cả component
+    sở hữu state và component nhận state làm props). Đây là kết nối rất quan trọng giữa state vfa props !
 Tham khảo : Việc render lại component về cơ bản nghĩa là React gọi lại hàm component, nó loại bỏ view hiện tại và thay thế = 1 view
-                mỗi khi render lại
+                mỗi khi render lại. Mỗi component thực sự có và quản lý state của riêng nó, vì vậy ngay cả khi ta hiển thị 1 component
+                nhiều lần trên 1 page, mỗi phiên bản component này sẽ hoạt động độc lập với tất cả các phiên bản khác 
